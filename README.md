@@ -1,1 +1,3 @@
-# 08-journal-app
+# Journal App
+
+JournalApp  - MaterialUI - Estructura y Diseño
