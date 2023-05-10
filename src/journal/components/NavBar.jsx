@@ -3,14 +3,14 @@
 import { AppBar, IconButton, Toolbar, Grid, Typography } from '@mui/material';
 import { MenuOutlined, LogoutOutlined } from '@mui/icons-material';
 import { useDispatch } from 'react-redux';
-import { logout } from '../../store/auth';
+import { logout, startLogout } from '../../store/auth';
 
 export const NavBar = ({ drawerWidth = 240 }) => {
 
     const dispatch = useDispatch();
 
     const onLogout = () => {
-        dispatch(logout());
+        dispatch(startLogout());
     };
 
     return (

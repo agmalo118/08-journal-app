@@ -46,6 +46,8 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["react-dom", "virtual:3c3d88674e47fd853033577f3a1a7a5e600366243e2565795d67bea335ca083d7be5161a78ba0ba1502042ce76849312bb6c46cb7115394919bcba2b86d91782#npm:18.2.0"],\
             ["react-redux", "virtual:3c3d88674e47fd853033577f3a1a7a5e600366243e2565795d67bea335ca083d7be5161a78ba0ba1502042ce76849312bb6c46cb7115394919bcba2b86d91782#npm:8.0.5"],\
             ["react-router-dom", "virtual:3c3d88674e47fd853033577f3a1a7a5e600366243e2565795d67bea335ca083d7be5161a78ba0ba1502042ce76849312bb6c46cb7115394919bcba2b86d91782#npm:6.11.1"],\
+            ["sweetalert2", "npm:11.7.5"],\
+            ["sweetalert2-react-content", "virtual:3c3d88674e47fd853033577f3a1a7a5e600366243e2565795d67bea335ca083d7be5161a78ba0ba1502042ce76849312bb6c46cb7115394919bcba2b86d91782#npm:5.0.7"],\
             ["vite", "virtual:3c3d88674e47fd853033577f3a1a7a5e600366243e2565795d67bea335ca083d7be5161a78ba0ba1502042ce76849312bb6c46cb7115394919bcba2b86d91782#npm:4.3.4"]\
           ],\
           "linkType": "SOFT"\
@@ -4418,6 +4420,8 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["react-dom", "virtual:3c3d88674e47fd853033577f3a1a7a5e600366243e2565795d67bea335ca083d7be5161a78ba0ba1502042ce76849312bb6c46cb7115394919bcba2b86d91782#npm:18.2.0"],\
             ["react-redux", "virtual:3c3d88674e47fd853033577f3a1a7a5e600366243e2565795d67bea335ca083d7be5161a78ba0ba1502042ce76849312bb6c46cb7115394919bcba2b86d91782#npm:8.0.5"],\
             ["react-router-dom", "virtual:3c3d88674e47fd853033577f3a1a7a5e600366243e2565795d67bea335ca083d7be5161a78ba0ba1502042ce76849312bb6c46cb7115394919bcba2b86d91782#npm:6.11.1"],\
+            ["sweetalert2", "npm:11.7.5"],\
+            ["sweetalert2-react-content", "virtual:3c3d88674e47fd853033577f3a1a7a5e600366243e2565795d67bea335ca083d7be5161a78ba0ba1502042ce76849312bb6c46cb7115394919bcba2b86d91782#npm:5.0.7"],\
             ["vite", "virtual:3c3d88674e47fd853033577f3a1a7a5e600366243e2565795d67bea335ca083d7be5161a78ba0ba1502042ce76849312bb6c46cb7115394919bcba2b86d91782#npm:4.3.4"]\
           ],\
           "linkType": "SOFT"\
@@ -5834,6 +5838,45 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/supports-preserve-symlinks-flag-npm-1.0.0-f17c4d0028-53b1e247e6.zip/node_modules/supports-preserve-symlinks-flag/",\
           "packageDependencies": [\
             ["supports-preserve-symlinks-flag", "npm:1.0.0"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["sweetalert2", [\
+        ["npm:11.7.5", {\
+          "packageLocation": "./.yarn/cache/sweetalert2-npm-11.7.5-953ed436ee-c1c1a4a7c8.zip/node_modules/sweetalert2/",\
+          "packageDependencies": [\
+            ["sweetalert2", "npm:11.7.5"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["sweetalert2-react-content", [\
+        ["npm:5.0.7", {\
+          "packageLocation": "./.yarn/cache/sweetalert2-react-content-npm-5.0.7-fb6d71b062-383eb9dd6d.zip/node_modules/sweetalert2-react-content/",\
+          "packageDependencies": [\
+            ["sweetalert2-react-content", "npm:5.0.7"]\
+          ],\
+          "linkType": "SOFT"\
+        }],\
+        ["virtual:3c3d88674e47fd853033577f3a1a7a5e600366243e2565795d67bea335ca083d7be5161a78ba0ba1502042ce76849312bb6c46cb7115394919bcba2b86d91782#npm:5.0.7", {\
+          "packageLocation": "./.yarn/__virtual__/sweetalert2-react-content-virtual-d1cb18ebff/0/cache/sweetalert2-react-content-npm-5.0.7-fb6d71b062-383eb9dd6d.zip/node_modules/sweetalert2-react-content/",\
+          "packageDependencies": [\
+            ["sweetalert2-react-content", "virtual:3c3d88674e47fd853033577f3a1a7a5e600366243e2565795d67bea335ca083d7be5161a78ba0ba1502042ce76849312bb6c46cb7115394919bcba2b86d91782#npm:5.0.7"],\
+            ["@types/react", "npm:18.2.5"],\
+            ["@types/react-dom", "npm:18.2.3"],\
+            ["@types/sweetalert2", null],\
+            ["react", "npm:18.2.0"],\
+            ["react-dom", "virtual:3c3d88674e47fd853033577f3a1a7a5e600366243e2565795d67bea335ca083d7be5161a78ba0ba1502042ce76849312bb6c46cb7115394919bcba2b86d91782#npm:18.2.0"],\
+            ["sweetalert2", "npm:11.7.5"]\
+          ],\
+          "packagePeers": [\
+            "@types/react-dom",\
+            "@types/react",\
+            "@types/sweetalert2",\
+            "react-dom",\
+            "react",\
+            "sweetalert2"\
           ],\
           "linkType": "HARD"\
         }]\

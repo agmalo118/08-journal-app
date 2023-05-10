@@ -1,6 +1,6 @@
 
 import { Link as RouterLink } from 'react-router-dom';
-import { Grid, Typography, TextField, Button, Link, Alert } from '@mui/material'
+import { Typography, TextField, Button, Link, Alert } from '@mui/material'
 import { Google } from '@mui/icons-material/'
 import { AuthLayout } from '../layout/AuthLayout';
 import { useForm } from '../../hooks/useForm';
@@ -9,8 +9,8 @@ import { checkingAuthentication, startGoogleSignIn, startLoginWithEmailPassword 
 import { useMemo, useState } from 'react';
 
 const formData = {
-    email: 'alex@prueba.com',
-    password: '123456'
+    email: '',
+    password: ''
 };
 
 const formValidations = {
@@ -50,7 +50,7 @@ export const LoginPage = () => {
             <form
                 onSubmit={onSubmit}
                 className='animate__animated animate__fadeIn animate__faster'>
-                <Grid container>
+                <Grid container >
                     <Grid item xs={12} md={6} sx={{ mt: 2 }}>
                         <TextField
                             label='Correo'
