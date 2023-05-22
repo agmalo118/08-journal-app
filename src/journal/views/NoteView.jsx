@@ -119,7 +119,7 @@ export const NoteView = () => {
 
             <Grid
                 container
-                jutifyContent='end'>
+                justifyContent='end'>
                 <Button
                     onClick={onDelete}
                     sx={{ mt: 2 }}
@@ -130,8 +130,7 @@ export const NoteView = () => {
             </Grid>
 
             {/* Image gallery */}
-            <ImageGallery
-                images={note.imageUrls} />
+            {note.imageUrls && <ImageGallery images={note.imageUrls} />}
 
         </Grid>
     )
